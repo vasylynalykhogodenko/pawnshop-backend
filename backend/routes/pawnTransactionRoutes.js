@@ -13,7 +13,7 @@
  *     description: |
  *       Retrieves a list of all pawn transactions with pagination and filtering.
  *       Accessible by both Admin and Employee roles.
- *       Current User: Nazariy003
+ *       Current User: Admin
  *       Current UTC Time Format: YYYY-MM-DD HH:MM:SS
  *     tags: [Pawn Transactions]
  *     security:
@@ -88,7 +88,7 @@
  *     description: |
  *       Creates a new pawn transaction.
  *       Accessible by both Admin and Employee roles.
- *       Current User: Nazariy003
+ *       Current User: Admin
  *       Current UTC Time: 2025-02-24 02:44:06
  *     tags: [Pawn Transactions]
  *     security:
@@ -173,7 +173,7 @@
  *     description: |
  *       Retrieves a specific pawn transaction by ID.
  *       Accessible by both Admin and Employee roles.
- *       Current User: Nazariy003
+ *       Current User: Admin
  *     tags: [Pawn Transactions]
  *     security:
  *       - bearerAuth: []
@@ -204,7 +204,7 @@
  *     description: |
  *       Updates an existing pawn transaction.
  *       Accessible by both Admin and Employee roles.
- *       Current User: Nazariy003
+ *       Current User: Admin
  *       Current UTC Time: 2025-02-24 02:44:06
  *     tags: [Pawn Transactions]
  *     security:
@@ -238,7 +238,7 @@
  *     description: |
  *       Deletes a pawn transaction.
  *       Only accessible by Admin role.
- *       Current User: Nazariy003
+ *       Current User: Admin
  *     tags: [Pawn Transactions]
  *     security:
  *       - bearerAuth: []
